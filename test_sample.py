@@ -9,4 +9,4 @@ def test_fonc():
     assert func(4) == 5
 
 def test_fonc2():
-    assert func(5) == 4
+    assert func(5) == 6

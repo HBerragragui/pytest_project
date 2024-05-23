@@ -23,6 +23,7 @@ jobs:
       run: pytest
     
   create-pull-request:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
